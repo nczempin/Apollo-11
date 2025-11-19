@@ -55,19 +55,23 @@ AGC files use uppercase with underscores:
 
 ### File Structure
 
-Every `.agc` file follows this format:
+Every `.agc` file contains a header similar to the following.  
+_(This is a representative template; actual files may include additional fields such as Reference pages, more detailed Mod history, and other metadata. See real `.agc` files in the repository for full examples.)_
 
 ```agc
 # Copyright:    Public domain.
 # Filename:     [FILENAME].agc
-# Purpose:      Part of the source code for Colossus 2A / Luminary 1A
+# Purpose:      [Brief description of the file's function]
+# Reference:    [Relevant page numbers or documents]
 # Assembler:    yaYUL
 # Contact:      Ron Burkey <info@sandroid.org>
 # Website:      www.ibiblio.org/apollo
-# Mod history:  [Date] [Initials] [Description]
-
+# Mod history:
+#   [YYYY-MM-DD] [Initials] [Description of change]
+#   [YYYY-MM-DD] [Initials] [Description of change]
+#
 # Page [number]
-
+#
 # Comments and actual AGC assembly code
 [CODE]
 ```
